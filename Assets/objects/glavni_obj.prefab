@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8850539858878493603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8850539858878493601}
+  - component: {fileID: 8850539858878493600}
+  m_Layer: 0
+  m_Name: glavni_obj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8850539858878493601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8850539858878493603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.78488755, y: 4.4838953, z: 17.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8850539858878493600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8850539858878493603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3cb02cc90f13942af7c3a7e27906e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PP: {fileID: 0}
+  rampe_prefab: {fileID: 1311588101050512, guid: 296afc851442ab3458f31d5c6f36804b,
+    type: 3}
+  pr_prefab: {fileID: 1051292121604574, guid: e9529cef64fda644292715720a26f48d, type: 3}
+  kugla: {fileID: 0}
+  platforma: {fileID: 1505245727564428, guid: d9fcc74e88627b348979902e288f865d, type: 3}
+  rampa_colors: 0000000000000000000000000000000000000000
+  udaljenost: 0
+  brzina_kretanja: 1000
+  brzina_okretanja: 0.1
+  pocetak: 0
+  u_rampi: 0
+  game_over: 1
+  izbrisi_platforme: 0
+  rampe_array:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  score: 0
+  array_broj: 0
+  broj_platformi: 0
+  restart: 0
+  broj_provjere: 0
+  spawn_broj: 0
+  destroy_broj: 0
+  ugaoPP: 0
+  ugaoK: 0
+  euler_ugao: 0
+  brzina_padanja: 20
+  brzina_dizanja: 40
+  rampa_material:
+  - {fileID: 2100000, guid: 644b2528b94a0fc4780a22cd133dbce1, type: 2}
+  - {fileID: 2100000, guid: 58f5d80a4e796ed4abab84efe7012dae, type: 2}
+  - {fileID: 2100000, guid: 850da2d11958cad44b92da9b64ce0a8c, type: 2}
+  - {fileID: 2100000, guid: 21869a9462c153d429656f07ea4ccae6, type: 2}
+  - {fileID: 2100000, guid: a20377899a4e1a246b95fd5ac9ad136b, type: 2}
+  rend_kugla: {fileID: 0}
+  platforme:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  sp: {fileID: 0}
+  names: []
+  hs_axiss: 0
